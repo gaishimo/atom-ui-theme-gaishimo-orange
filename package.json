@@ -1,0 +1,16 @@
+{
+  "name": "gaishimo-orange-ui",
+  "theme": "ui",
+  "version": "0.0.0",
+  "description": "Gaishimo orange ui",
+  "keywords": [
+    "ui",
+    "theme",
+    "orange"
+  ],
+  "repository": "https://github.com/gaishimo/atom-ui-theme-gaishimo-orange",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
