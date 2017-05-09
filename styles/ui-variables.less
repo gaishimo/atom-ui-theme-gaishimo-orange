@@ -12,14 +12,14 @@
 
 
 // Text Colors
-@text-color:           hsl(0,0%,66%);
-@text-color-subtle:    hsl(0,0%,50%);
-@text-color-highlight: hsl(0,0%,94%);
-@text-color-selected:  hsl(0,0%,100%);
+@text-color:           rgb(150, 50, 0);
+@text-color-subtle:    rgb(150, 100, 0);
+@text-color-highlight: rgb(120, 80, 0);
+@text-color-selected:  rgb(100, 50, 0);
 
-@text-color-info:    hsl(219,  79%, 66%);
-@text-color-success: hsl(140,  44%, 62%);
-@text-color-warning: hsl( 36,  60%, 72%);
+@text-color-info:    rgb(200, 150, 0);
+@text-color-success: rgb(200, 100, 0);
+@text-color-warning: rgb(150, 150, 50);
 @text-color-error:   hsl(  9, 100%, 64%);
 
 // Background colors
@@ -28,12 +28,15 @@
 @background-color-warning: hsl(32,   60%, 50%);
 @background-color-error:   hsl(0,    70%, 50%);
 
-@background-color-highlight: lighten(@base-background-color, 5%);
-@background-color-selected:  lighten(@base-background-color, 10%);
+@background-color-highlight: lighten(@base-background-color, 3%);
+@background-color-selected:  darken(@base-background-color, 3%);
 @app-background-color:       darken(@base-background-color, 5%);
 
 // Base colors
-@base-background-color: hsl(222,6%,22%);
+// @base-background-color: hsl(222,6%,22%);
+@base-background-color: rgb(255, 200, 150);
+
+
 @base-border-color:     darken(@base-background-color, 8%);
 
 // Component colors
@@ -58,6 +61,7 @@
 @button-background-color:          lighten(@base-background-color, 10%);
 @button-background-color-hover:    lighten(@button-background-color, 12%);
 @button-background-color-selected: @button-background-color-hover;
+
 @button-border-color:              @base-border-color;
 
 @tab-bar-background-color:    @base-background-color;
