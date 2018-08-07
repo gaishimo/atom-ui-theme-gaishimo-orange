@@ -1,5 +1,7 @@
 # Atom UI Theme Template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gaishimo/atom-ui-theme-gaishimo-orange.svg)](https://greenkeeper.io/)
+
 This is a __starter template__ for creating an Atom UI theme.
 
 This template only includes the __minimum of styling__ needed and comes with a neutral look. It could already be used as a real theme, but its purpose is to serve as a basis for creating your own theme. It is documented throughout and invites you to make changes to your liking. For some inspiration take a look at other Atom themes at [atom.io/themes](https://atom.io/themes/). Or you're always free to fork a theme that already comes close to your vision.
